@@ -1,0 +1,196 @@
+h1{
+    color: red ;
+}
+
+.background{
+    background:burlywood;
+    color: blueviolet;
+}
+
+#fond{
+    background:burlywood;
+    color: blueviolet;
+}
+
+/* mise en page des titres */
+h1{
+    color:red;
+}
+
+h4{
+    font-size: 99%;
+}
+
+h3{
+    font-size: 99%;
+}
+
+h5{
+    font-size: 99%;
+}
+
+h2{
+    font-size:x-large;
+}
+
+/* effet sur les hover */
+div>div>a:hover,div>div>div>div>div>a:hover{
+    color:black;
+}
+
+div>div>div>div>i:hover{
+    background-color:lightgray;
+}
+
+.fondHover:hover{
+    background-color:lightgray;
+    border-radius: 50%;
+}
+
+div>div>p>a:hover{
+    color:black ;
+    text-decoration: underline;
+}
+
+#rangeePseudo:hover{
+    text-decoration: underline;
+}
+
+.liensFooter:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+footer>div>a:hover{
+    background-color:lightgray ;
+}
+
+
+/* couleur et effet des liens sur la page */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* couleur de l'écriture du menu */
+nav>div{
+    color: black;
+}
+
+div>nav>div>a{
+    color: black;
+}
+
+.menu:hover{
+    border-radius: 20px;
+    background-color: lightgray ;
+}
+
+
+/* la couleur du background, l'écriture et l'image dans le carousel */
+#bgCarousel{
+    background:antiquewhite;
+}
+
+.textCouleur{
+    color:darkorchid ;
+}
+
+img{
+    width: 400px;
+    height: 450px;
+}
+
+.taille{
+    height: 300px;
+    width: 800px;
+}
+
+
+/* la couleur background pour la rangé performance  */
+#perfomance{
+    background:ghostwhite;  
+    height: auto;
+}
+
+.rangeeActifEnPauseNonDemarre{
+    width: 33.33%;
+}
+
+.redimensionRangeePerformance{
+    width: 25%;
+    height: auto;
+}
+
+
+/* rangée ressources pour faire les petites cases */
+.redimension{
+    font-size:99%;
+    height: 90px;
+}
+
+
+/* alignement servant pour la rangée pseudo */
+#pseudo{
+    margin-left: 12%;
+}
+
+#zero{
+    margin-right: 12%;
+}
+
+
+/* dans le menu pied de page */
+footer>div>a{
+    background-color: white;
+}
+
+/* image dans les ressources */
+.fondImage{
+    background-image: url("https://s2.qwant.com/thumbr/474x296/d/8/6ca4f7bdf1d2f9d498abd977ad15621dc5ccc7901b799ebff10a9cb601b6a6/th.jpg?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.toBNT9k00I7_dwYthRDEpgHaEo%26pid%3DApi&q=0&b=1&p=0&a=0");
+    opacity: 0.8;
+    color: white;
+}
+
+.fondImage:hover{
+    color: white;
+}
+
+/* bordure arrondis */
+.bordureArrondie{
+    border-radius: 20px;
+}
+
+
+/* pour affichage en tablette */
+@media screen and (max-width:780px) {
+    
+    nav{
+        text-align: center;
+    }
+
+    #pseudo{
+        margin: auto;
+    }
+
+    #zero{
+        margin: auto;
+    }
+    
+    .redimensionRangeePerformance{
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .tailleReplier{
+        height: auto;
+        width: auto;
+    }
+
+    .taille{
+        height: auto;
+        width: auto;
+    }
+}
